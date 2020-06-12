@@ -19,26 +19,26 @@
 
   \cventry
     {}
-    {\href{http://t.cn/Eh7yABv}{机器学习平台漫谈}}
+    {\href{http://gaocegege.com/Blog/ormb}{ormb：像管理 Docker 容器镜像一样管理机器学习模型}}
     {\href{http://gaocegege.com}{gaocegege.com}}
-    {2018 年 7 月 24 日}
+    {2020 年 5 月 26 日}
     {
       \begin{cvitems} % Description(s)
         \item {
-          随着深度学习的兴起，机器学习在最近几年以星火燎原之势席卷了整个科技行业。而在整个机器学习的工作流中，模型训练的代码只是其中的一小部分。除此之外，训练任务的监控，日志的回收，超参数的选择与优化，模型的发布与集成，数据清洗，特征提取等等，都是流程中不可或缺的部分。因此，有一些工具和公司的产品，致力于为机器学习从业者提供一个统一的平台，帮助用户更好地完成其机器学习业务的落地。这篇文章是关于机器学习平台产品的分析对比，由于利益相关性只放出国外的产品
+          这篇文章介绍了如何利用 OCI 兼容的镜像仓库管理机器学习模型
         }
       \end{cvitems}
     }
 
   \cventry
     {}
-    {\href{http://gaocegege.com/Blog/kubernetes/operator}{Kubernetes CRD Operator 实现指南}}
+    {\href{http://gaocegege.com/Blog/why-do-i-like-ray}{开源史海钩沉系列 [1] Ray：分布式计算框架}}
     {\href{http://gaocegege.com}{gaocegege.com}}
-    {2018 年 6 月 11 日}
+    {2020 年 1 月 20 日}
     {
       \begin{cvitems} % Description(s)
         \item {
-          Kubernetes 已经成为了集群调度领域最炙手可热的开源项目之一。而多工作负载支持，是讨论到集群调度时不得不谈的一个话题。CRD 是 Kubernetes 的一个特性，通过它，集群可以支持自定义的资源类型，这是在 Kubernetes 集群上支持多工作负载的方式之一。本文希望讨论在实现一个 Kubernetes CRD Operator 时可能遇到的问题以及解决方案，抛砖引玉，探索实现的最佳实践
+          这篇文章介绍了 Ray 的设计与实现
         }
       \end{cvitems}
     }
@@ -51,7 +51,7 @@
     {
       \begin{cvitems} % Description(s)
         \item {
-          这篇文章主要介绍了 Katib，一个由 NTT 贡献到 Kubeflow 社区的超参数训练系统。面向人群为对在 Kubernetes 上运行机器学习负载感兴趣的同学。
+          这篇文章主要介绍了 Katib，一个 Kubernetes Native 的超参数训练系统
         }
       \end{cvitems}
     }
@@ -66,6 +66,19 @@
 
 %---------------------------------------------------------
   \cventry
+    {华为开发者大会}
+    {\href{https://docs.google.com/presentation/d/1GAkh0inBsZHC2XUNde0YCQ7W70r2rA7X5VWsGN1D6KU/edit}{Kubeflow + Volcano 加速机器学习平台容器化进程}}
+    {中国上海} % Location
+    {2020 年 4 月} % Date(s)
+    {
+      \begin{cvitems} % Description(s)
+        \item {
+          本次演讲介绍了 Kubeflow 与 Volcano 的集成能力
+        }
+      \end{cvitems}
+    }
+
+  \cventry
     {人工智能产业发展联盟-开源开放组-第二次会议}
     {\href{https://docs.google.com/presentation/d/1lVmPF7KRtxi9DhBeRi4uU2NALtqNFTS6NhlLeuPDsrs/edit}{The Good, the Bad, and the Ugly of Managing ML Systems with Kubernetes}}
     {中国上海} % Location
@@ -74,19 +87,6 @@
       \begin{cvitems} % Description(s)
         \item {
           本次演讲，高策分享了才云科技在利用 Kubernetes 支持机器学习工作负载的方式，以及其中支持比较好的地方，以及会遇到的一些问题
-        }
-      \end{cvitems}
-    }
-
-  \cventry
-    {Kubeflow Meetup}
-    {\href{https://docs.google.com/presentation/d/13imA6Ju9GndgKJPQTliCBySnWHXcMoAlSZzBi272hbw/edit}{ciao: Jupyter Kernel for Kubeflow}}
-    {中国上海} % Location
-    {2019 年 5 月} % Date(s)
-    {
-      \begin{cvitems} % Description(s)
-        \item {
-          在本次演讲中，高策介绍了 ciao。ciao 是一个 Jupyter 的 Kernel，通过它用户可以在 Jupyter Notebook 中发起分布式的训练任务
         }
       \end{cvitems}
     }
@@ -105,14 +105,6 @@
     }
 
   \cventry
-    {统计之都 2018 年 Meetup}
-    {\href{https://docs.google.com/presentation/d/1ED24TCnlBVzyJz0aCEAtXQQh0_W1RKSeapP3QZ0fTKA/edit?usp=sharing}{Kubeflow: Run ML workloads on Kubernetes}}
-    {中国上海} % Location
-    {2018 年 7 月} % Date(s)
-    {
-    }
-
-  \cventry
     {第十届中国 R 语言会议}
     {\href{http://slides.com/gaocegege/processing-r}{
       Processing.R: 使用 R 语言实现新媒体艺术作品}}
@@ -124,22 +116,6 @@
           本次演讲介绍了 Processing.R。通过这一项目，用户可以利用 R 语言进行新媒体艺术作品的创作
         }
       \end{cvitems}
-    }
-
-  \cventry
-    {2017 年东岳技术分享}
-    {\href{https://docs.google.com/presentation/d/1ylRT4VvydWbR7SyTQzNZOLpkXtgSZJiEl5nmXY1KuJw/edit?usp=sharing}{Processing.R 设计，实现与使用}}
-    {中国上海} % Location
-    {2017 年 7 月} % Date(s)
-    {
-    }
-
-  \cventry
-    {2016 年东岳技术分享}
-    {\href{https://docs.google.com/presentation/d/1Ru4Dm9TLoyxnJgFqvsCHrb82VT622H-zBSgAe1vJL44/edit?usp=sharing}{Docker 入门介绍}}
-    {中国上海} % Location
-    {2016 年 7 月} % Date(s)
-    {
     }
 
 %---------------------------------------------------------
