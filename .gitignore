@@ -92,3 +92,5 @@ sympy-plots-for-*.tex/
 *.xdy
 
 .vscode/
+
+.DS_Store
