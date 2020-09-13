@@ -163,7 +163,7 @@
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
 % See https://github.com/posquit0/Awesome-CV/issues/234
-\setfontfamily\FA[Path=\@fontdir]{FontAwesome}
+% \setfontfamily\FA[Path=\@fontdir]{FontAwesome}
 % Set font for header (default is Roboto)
 \newfontfamily\headerfont[
   Path=fonts/source-han-serif/,
